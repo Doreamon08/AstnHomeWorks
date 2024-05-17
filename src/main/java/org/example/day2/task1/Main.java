@@ -5,7 +5,7 @@ public class Main {
         Car sedan = new Sedan();
         System.out.println("Number of doors: " + sedan.getNumberOfDoors());
         System.out.println("Trunk capacity: " + sedan.getTrunkCapacity());
-        System.out.println("Fuel typ: " + sedan.getFuelType());
+        System.out.println("Fuel type: " + sedan.getFuelType());
         sedan.start();
         sedan.stop();
 
@@ -14,7 +14,7 @@ public class Main {
         Car truck = new Truck();
         System.out.println("Number of doors: " + truck.getNumberOfDoors());
         System.out.println("Trunk capacity: " + truck.getTrunkCapacity());
-        System.out.println("Fuel typ: " + truck.getFuelType());
+        System.out.println("Fuel type: " + truck.getFuelType());
         truck.start();
         truck.stop();
     }
