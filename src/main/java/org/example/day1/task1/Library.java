@@ -2,10 +2,9 @@ package org.example.day1.task1;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Queue;
 
 public class Library {
-    private List<Book> books = new ArrayList<Book>();
+    private List<Book> books = new ArrayList<>();
 
     static {
         System.out.println("Library class loaded.");
