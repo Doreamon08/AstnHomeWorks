@@ -15,9 +15,12 @@ class StudentList {
     }
 
     public void filterLowGrades() {
+
         this.students = students.stream()
                 .filter(student -> student.getAverageEval() >= 3)
                 .toList();
+        this.students.forEach(student -> student.setCourse(student.getCourse() + 1));
+
     }
 
     public List<Student> getStudents() {

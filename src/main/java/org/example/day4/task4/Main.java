@@ -15,7 +15,7 @@ public class Main {
 
         studentList.filterLowGrades();
 
-        printStudents(studentList.getStudents(), 3);
+        printStudents(studentList.getStudents(), 4);
     }
 
     private static void printStudents(List<Student> students, int course) {
