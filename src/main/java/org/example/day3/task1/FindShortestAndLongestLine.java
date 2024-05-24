@@ -2,7 +2,7 @@ package org.example.day3.task1;
 
 import java.util.Scanner;
 
-public class Main {
+public class FindShortestAndLongestLine {
     public static void main(String[] argc) {
 
         Scanner scanner = new Scanner(System.in);
