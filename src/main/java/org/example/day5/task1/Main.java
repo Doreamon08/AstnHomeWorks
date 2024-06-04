@@ -19,7 +19,6 @@ public class Main {
         System.out.println();
         System.out.println();
 
-        ///////////////////////////////////////////////////////////
 
         List<Integer> distinctList = list.stream().
                 distinct()
@@ -31,7 +30,6 @@ public class Main {
         System.out.println();
         System.out.println();
 
-        ///////////////////////////////////////////////////////////
 
         List<Integer> evenList = distinctList.stream().
                 filter(integer -> integer % 2 == 0).
@@ -43,7 +41,6 @@ public class Main {
         System.out.println();
         System.out.println();
 
-        ///////////////////////////////////////////////////////////
 
         int sum = evenList.stream().
                 mapToInt(Integer::intValue).
